@@ -18,6 +18,8 @@
 
 CS undergrad at PolyU, GPA 3.85/4.3. Currently running URIS-funded research on whether a layered VLM architecture — detector + tracker + on-demand reasoning — actually beats end-to-end querying for grounded, multi-turn home environment dialogue. Shorter answer: it depends on how you define "beats."
 
+Comfortable with system design, architecture visualization, and translating research ideas into working prototypes end-to-end.
+
 Looking for **summer research at NUS / NTU** (2026). Happy to contribute to ongoing projects in multimodal AI, NLP, or HCI.
 
 > 🔬 **Research Affiliation:** URIS — Undergraduate Research and Innovation Scheme, PolyU
