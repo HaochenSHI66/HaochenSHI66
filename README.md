@@ -76,8 +76,8 @@ The core question: does keeping the VLM out of the loop for most frames — usin
 
 ## Projects
 
-### 🤝 ReadyForInterview — AI Mock Interview Platform
-> **Role:** Backend engineer &nbsp;|&nbsp; Team project &nbsp;|&nbsp; [learn more ↗](https://github.com/HaochenSHI66/JobInterview-main)
+### 🤝 PolyInterview — AI Mock Interview Platform
+> **Role:** Backend engineer &nbsp;|&nbsp; Team project &nbsp;|&nbsp; [learn more ↗](https://github.com/ACCFOOL/PolyInterview)
 
 AI-generated interview questions tailored to the role, a live digital avatar that speaks via WebRTC, and automated scoring using SKTE and FABE frameworks. My work was the backend — schema design, auth, TTS pipeline, and speech evaluation module.
 
@@ -105,6 +105,10 @@ User Browser
 | Multi-engine TTS consistency | Tone-parameter normalisation layer to preserve voice identity when switching between EdgeTTS and GPT-SoVITS |
 
 **Contributions:** Relational schema design (SQLite) · Full auth and session management · TTS tone-selection pipeline · Speech evaluation module aligned with SKTE framework
+
+**System Architecture**
+
+![PolyInterview Architecture](https://raw.githubusercontent.com/HaochenSHI66/HaochenSHI66/main/polyinterview-architecture.png)
 
 `Python` `Flask` `Vue.js` `SQLite` `OpenAI API` `DashScope` `LiveTalking` `Wav2Lip` `WebRTC` `EdgeTTS` `GPT-SoVITS`
 
