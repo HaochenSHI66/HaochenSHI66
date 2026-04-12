@@ -222,17 +222,7 @@ Full-stack Gomoku with a Minimax and Alpha-Beta pruning engine, paired with real
 
 <div align="center">
 
-![Trophy](https://github-profile-trophy.vercel.app/?username=HaochenSHI66&theme=tokyonight&no-frame=true&column=7&margin-w=4)
-
-<br/>
-
-![GitHub Stats](https://github-readme-stats.vercel.app/api?username=HaochenSHI66&show_icons=true&theme=tokyonight&hide_border=true&count_private=true)
-&nbsp;
-![Top Languages](https://github-readme-stats.vercel.app/api/top-langs/?username=HaochenSHI66&layout=compact&theme=tokyonight&hide_border=true)
-
-<br/>
-
-![GitHub Streak](https://streak-stats.demolab.com?user=HaochenSHI66&theme=tokyonight&hide_border=true)
+![Top Languages](https://github-readme-stats.vercel.app/api/top-langs/?username=HaochenSHI66&layout=compact&theme=tokyonight&hide_border=true&langs_count=8)
 
 </div>
 
