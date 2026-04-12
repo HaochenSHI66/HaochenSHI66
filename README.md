@@ -115,16 +115,7 @@ Upload a slide deck, get page-by-page explanations in a split-screen view. Two Q
 
 **System Architecture**
 
-```
-Next.js 15 + React 19 (split-screen UI)
-    │
-    └── FastAPI backend
-            ├── Vision pipeline  ──► Qwen-VL   (layout parsing, diagram understanding)
-            ├── Text pipeline    ──► Qwen-Chat  (semantic explanation, concept map generation)
-            └── SQLite (WAL mode) ──► per-slide result cache + bookmark state
-                                              ▲
-                                     Cloudflare Tunnel (public access, no managed VM)
-```
+![Teaching-Learning Architecture](https://raw.githubusercontent.com/HaochenSHI66/Teaching-Learning-v/main/docs/architecture.png)
 
 **Core Technical Challenges**
 
