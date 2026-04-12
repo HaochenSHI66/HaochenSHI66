@@ -101,10 +101,16 @@
 
 | Project | Description | Tech Stack |
 |---------|-------------|------------|
-| 🤖 **URIS: Multimodal Robot System** | LLM-Based Interaction System for Home Robots with Real-Time Adaptation. Integrating voice, gesture, and vision for intelligent home automation using LLaMA3 and ROS2 | Python, LLaMA3, YOLO, ROS2, PyTorch |
-| 🏫 **CMMS** | Campus Maintenance Management System | Python, SQLite, Tkinter |
-| 📚 **Algorithm Learning** | Java Algorithm Implementation & Learning | Java, Data Structures |
-| 💻 **C++ Practice** | C++ Algorithms & Data Structures Practice | C++, STL, Algorithms |
+| 🤖 [**URIS: Multimodal Robot System**](https://github.com/HaochenSHI66/URIS-v) | LLM-Based Interaction System for Home Robots with Real-Time Adaptation. Integrating voice, gesture, and vision for intelligent home automation using LLaMA3 and ROS2 | Python, LLaMA3, YOLO, ROS2, PyTorch |
+| 📈 [**AI Investment Terminal**](https://github.com/HaochenSHI66/AI-Investment-v) | AI-powered stock analysis and investment decision platform with real-time market data | Python, LLM, Financial APIs |
+| 🎓 [**AI Grad School Navigator**](https://github.com/HaochenSHI66/AI-Powered-Grad-School-Navigator-v) | AI-powered graduate school application assistant and advisor | Python, LLM, RAG |
+| 🏠 [**Smart Home AI**](https://github.com/HaochenSHI66/Smart-Home-AI-v) | Intelligent home automation system powered by AI | Python, IoT, LLM |
+| 📚 [**Teaching & Learning Platform**](https://github.com/HaochenSHI66/Teaching-Learning-v) | Full-stack educational platform with AI-assisted content generation | React, Node.js, LLM |
+| 🔍 [**PaperHunter**](https://github.com/HaochenSHI66/PaperHunter-v) | Automated CS paper tracking and weekly digest agent | Python, LLM, Web Scraping |
+| 🏫 [**CMMS**](https://github.com/HaochenSHI66/Campus-Maintenance-Management-System-CMMS-v) | Campus Maintenance Management System | Python, SQLite, Tkinter |
+| 📓 [**SmartJournal**](https://github.com/HaochenSHI66/SmartJournal-v) | AI-enhanced personal journaling application | TypeScript, LLM |
+| 📚 [**Algorithm Learning**](https://github.com/HaochenSHI66/JavaAlgorithmLearningMaterial-v) | Java Algorithm Implementation & Learning | Java, Data Structures |
+| 💻 [**OOP Projects**](https://github.com/HaochenSHI66/OOP-v) | Object-Oriented Programming Projects & Design Patterns | Java, OOP, Design Patterns |
 
 </div>
 
