@@ -218,13 +218,6 @@ Full-stack Gomoku with a Minimax and Alpha-Beta pruning engine, paired with real
 
 ---
 
-## GitHub Stats
-
-<div align="center">
-
-![Top Languages](https://github-readme-stats.vercel.app/api/top-langs/?username=HaochenSHI66&layout=compact&theme=tokyonight&hide_border=true&langs_count=8)
-
-</div>
 
 ---
 
