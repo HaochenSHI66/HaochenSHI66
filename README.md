@@ -18,9 +18,7 @@
 
 CS undergrad at PolyU, GPA 3.85/4.3. Currently running URIS-funded research on whether a layered VLM architecture — detector + tracker + on-demand reasoning — actually beats end-to-end querying for grounded, multi-turn home environment dialogue. Shorter answer: it depends on how you define "beats."
 
-Comfortable with system design, architecture visualization, and translating research ideas into working prototypes end-to-end.
-
-Looking for **summer research opportunities** (2026). Happy to contribute to ongoing projects in multimodal AI, NLP, or HCI.
+I tend to build things all the way through, not just the model part. Looking for summer research in 2026, multimodal AI or NLP.
 
 > [!IMPORTANT]
 > **Research Affiliation:** URIS — Undergraduate Research and Innovation Scheme, PolyU
@@ -56,7 +54,7 @@ Existing ASG benchmarks are biased toward CS and use generic metrics. SurveyLens
 > [!NOTE]
 > **URIS Selection:** 100 awardees selected university-wide across all faculties. Only **5–6 CS students** were matched with a CS-track supervisor in this cohort. Research output includes two LoRA adapters published on Hugging Face.
 
-The core question: does keeping the VLM out of the loop for most frames — using YOLOv8 + tracker for object state, calling Qwen2.5-VL only on demand — give better latency and more interpretable failures than end-to-end querying? Built this to find out.
+The core question: does keeping the VLM out of the loop for most frames (YOLOv8 + tracker for object state, Qwen2.5-VL called only on demand) give better latency and more interpretable failures than querying end-to-end? Built this to find out.
 
 **Architecture**
 
@@ -82,12 +80,12 @@ The core question: does keeping the VLM out of the loop for most frames — usin
 ## 🌟 Featured Project
 
 > [!IMPORTANT]
-> **PolyInterview** is a **university-level key project** at PolyU, initiated and supervised by senior university leadership including the **Vice President** of the university. This is not an independent side project — it represents institutional recognition and direct faculty/executive endorsement of the work.
+> **PolyInterview** is a PolyU institutional project supervised by the university's Vice President. The university allocated dedicated faculty and resources to it.
 
 ### **PolyInterview — AI-Powered Mock Interview Platform**
 > **Role:** Backend engineer &nbsp;|&nbsp; **Affiliation:** PolyU Key Project &nbsp;|&nbsp; [Repository ↗](https://github.com/ACCFOOL/PolyInterview)
 
-AI-generated interview questions tailored to the role, a live digital avatar that speaks via WebRTC, and automated scoring using SKTE and FABE frameworks. My work was the backend — schema design, auth, TTS pipeline, and speech evaluation module.
+The platform generates interview questions from a job description, runs a lip-synced digital avatar over WebRTC, and scores the candidate's responses using SKTE/FABE. I did the backend: schema design, auth, TTS pipeline, and speech scoring.
 
 **System Architecture**
 
@@ -112,7 +110,7 @@ AI-generated interview questions tailored to the role, a live digital avatar tha
 ### 🎓 Teaching-Learning — AI Slide Lecture Assistant
 > **Role:** Sole developer &nbsp;|&nbsp; Live at [learn.shc66.com](https://learn.shc66.com)
 
-Upload a slide deck, get page-by-page explanations in a split-screen view. Two Qwen models run in parallel — vision for layout and diagram parsing, text for generating explanations — with prior-slide summaries passed forward to keep the narrative coherent. No cloud VM; runs over Cloudflare Tunnel.
+Upload a slide deck, get page-by-page explanations in a split-screen view. One Qwen model reads the visual layout and diagrams, another generates the explanation text. Prior-slide summaries are passed forward so the explanation stays coherent across a long deck. No cloud VM, just Cloudflare Tunnel.
 
 **System Architecture**
 
