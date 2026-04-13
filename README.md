@@ -81,7 +81,7 @@ The core question: does keeping the VLM out of the loop for most frames (YOLOv8 
 ## 🌟 Featured Project
 
 > [!IMPORTANT]
-> **PolyInterview** is a PolyU institutional project supervised by the university's **Vice President**. The university allocated dedicated faculty and resources to it.
+> **PolyInterview** is a PolyU institutional project supervised by the university's **Vice President**.
 
 ### **PolyInterview — AI-Powered Mock Interview Platform**
 > **Role:** Backend engineer &nbsp;|&nbsp; **Affiliation:** PolyU Key Project &nbsp;|&nbsp; [Repository ↗](https://github.com/ACCFOOL/PolyInterview)
