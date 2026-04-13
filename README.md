@@ -24,7 +24,7 @@ Looking for **summer research opportunities** (2026). Happy to contribute to ong
 
 > [!IMPORTANT]
 > **Research Affiliation:** URIS — Undergraduate Research and Innovation Scheme, PolyU
-> University-wide competitive scheme: **~100 students selected per cohort** across all departments. Within the CS department, only **5–6 students** were matched with a CS-track professor. [View Official Awardee List ↗](https://www.polyu.edu.hk/ric/uris/uris-2024-25/awardees/)
+> Competitive university-wide scheme open to all undergraduates. **100 students selected per cohort** across all faculties. Within the CS department, only **5–6 students** were matched with a CS-track supervisor. [View Official Awardee List ↗](https://www.polyu.edu.hk/ric/uris/uris-2024-25/awardees/)
 
 ---
 
@@ -54,7 +54,7 @@ Existing ASG benchmarks are biased toward CS and use generic metrics. SurveyLens
 > **Role:** Sole developer &nbsp;|&nbsp; **Scheme:** URIS, PolyU
 
 > [!NOTE]
-> **URIS Selection:** University-wide ~100 awardees across all faculties; only **5–6 CS students** matched with a CS-track supervisor in this cohort. Research output includes two LoRA adapters published on Hugging Face.
+> **URIS Selection:** 100 awardees selected university-wide across all faculties. Only **5–6 CS students** were matched with a CS-track supervisor in this cohort. Research output includes two LoRA adapters published on Hugging Face.
 
 The core question: does keeping the VLM out of the loop for most frames — using YOLOv8 + tracker for object state, calling Qwen2.5-VL only on demand — give better latency and more interpretable failures than end-to-end querying? Built this to find out.
 
