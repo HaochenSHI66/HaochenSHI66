@@ -109,7 +109,7 @@ The platform generates interview questions from a job description, runs a lip-sy
 ## Projects
 
 ### 🎓 Teaching-Learning — AI Slide Lecture Assistant
-> **Role:** Sole developer &nbsp;|&nbsp; Live at [learn.shc66.com](https://learn.shc66.com)
+> **Role:** Sole developer
 
 Upload a slide deck, get page-by-page explanations in a split-screen view. One Qwen model reads the visual layout and diagrams, another generates the explanation text. Prior-slide summaries are passed forward so the explanation stays coherent across a long deck. No cloud VM, just Cloudflare Tunnel.
 
