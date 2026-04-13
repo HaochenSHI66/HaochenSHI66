@@ -22,7 +22,7 @@ I tend to build things all the way through, not just the model part. Looking for
 
 > [!IMPORTANT]
 > **Research Affiliation:** URIS — Undergraduate Research and Innovation Scheme, PolyU
-> Competitive university-wide scheme open to all undergraduates. **100 students selected per cohort** across all faculties. Within the CS department, only **5–6 CS students** were matched with a CS-track supervisor — making this one of the rarest undergraduate research placements in the university. [View Official Awardee List ↗](https://www.polyu.edu.hk/gs/ug-research/uris/approved-projects/)
+> Competitive university-wide scheme open to all undergraduates. **100 students selected per cohort** across all faculties. Within the CS department, only **8 CS students** were matched with a CS-track supervisor — making this one of the rarest undergraduate research placements in the university. [View Official Awardee List ↗](https://www.polyu.edu.hk/gs/ug-research/uris/approved-projects/)
 
 ---
 
@@ -53,7 +53,7 @@ Existing ASG benchmarks are biased toward CS and use generic metrics. SurveyLens
 > **Role:** Sole developer &nbsp;|&nbsp; **Scheme:** URIS, PolyU
 
 > [!NOTE]
-> **URIS Selection:** 100 awardees selected university-wide across all faculties. Only **5–6 CS students** were matched with a CS-track supervisor in this cohort. Research output includes **two LoRA adapters published on Hugging Face**.
+> **URIS Selection:** 100 awardees selected university-wide across all faculties. Only **8 CS students** were matched with a CS-track supervisor in this cohort. Research output includes **two LoRA adapters published on Hugging Face**.
 
 The core question: does keeping the VLM out of the loop for most frames (YOLOv8 + tracker for object state, Qwen2.5-VL called only on demand) give better latency and more interpretable failures than querying end-to-end? Built this to find out.
 
