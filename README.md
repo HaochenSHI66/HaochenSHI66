@@ -22,7 +22,7 @@ I tend to build things all the way through, not just the model part. Looking for
 
 > [!IMPORTANT]
 > **Research Affiliation:** URIS — Undergraduate Research and Innovation Scheme, PolyU
-> Competitive university-wide scheme open to all undergraduates. **100 students selected per cohort** across all faculties. Within the CS department, only **5–6 CS students** were matched with a CS-track supervisor — making this one of the rarest undergraduate research placements in the university. [View Official Awardee List ↗](https://www.polyu.edu.hk/ric/uris/uris-2024-25/awardees/)
+> Competitive university-wide scheme open to all undergraduates. **100 students selected per cohort** across all faculties. Within the CS department, only **5–6 CS students** were matched with a CS-track supervisor — making this one of the rarest undergraduate research placements in the university. [View Official Awardee List ↗](https://www.polyu.edu.hk/gs/ug-research/uris/approved-projects/)
 
 ---
 
