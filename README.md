@@ -16,23 +16,24 @@
 
 ## About Me
 
-CS undergrad at PolyU, GPA 3.85. Currently running URIS-funded research on whether a layered VLM architecture — detector + tracker + on-demand reasoning — actually beats end-to-end querying for grounded, multi-turn home environment dialogue. Shorter answer: it depends on how you define "beats."
+CS undergrad at PolyU, GPA **3.85**. Currently running URIS-funded research on whether a layered VLM architecture — detector + tracker + on-demand reasoning — actually beats end-to-end querying for grounded, multi-turn home environment dialogue. Shorter answer: it depends on how you define "beats."
 
 I tend to build things all the way through, not just the model part. Looking for summer research in 2026, multimodal AI or NLP.
 
 > [!IMPORTANT]
 > **Research Affiliation:** URIS — Undergraduate Research and Innovation Scheme, PolyU
-> Competitive university-wide scheme open to all undergraduates. **100 students selected per cohort** across all faculties. Within the CS department, only **5–6 students** were matched with a CS-track supervisor. [View Official Awardee List ↗](https://www.polyu.edu.hk/ric/uris/uris-2024-25/awardees/)
+> Competitive university-wide scheme open to all undergraduates. **100 students selected per cohort** across all faculties. Within the CS department, only **5–6 CS students** were matched with a CS-track supervisor — making this one of the rarest undergraduate research placements in the university. [View Official Awardee List ↗](https://www.polyu.edu.hk/ric/uris/uris-2024-25/awardees/)
 
 ---
 
 ## Publications
 
-> Under review at top-tier venues (ACM MM 2026, KDD 2026)
+> [!IMPORTANT]
+> Two papers currently under review at **ACM MM 2026** and **KDD 2026** — both A* / A-ranked venues in their respective fields.
 
 **CCD-VQA: Benchmark Construction and Evaluation for Traffic Circumstances Understanding in Multimodal Large Language Models**
 Zhou Letian, **Haochen Shi**, Wei Lou
-*ACM International Conference on Multimedia (ACM MM) 2026 — Under Review*
+***ACM International Conference on Multimedia (ACM MM) 2026 — Under Review***
 
 199 accident videos (filtered from 1,500 via YOLOv8 kinematic analysis), 1,194 QA pairs across six dimensions: Weather/Light, Traffic Environment, Road Configuration, Accident Type, Accident Cause, and Accident Prevention. Sentence-BERT controls distractor quality; a Benchmark Suitability Score (BSS) grounded in Item Response Theory suppresses random-guessing shortcuts. Key numbers: gemini-3.1-pro-preview reaches 77.55% overall; best open-source models cluster around 64% on perception — but all drop 20–25% on causal reasoning tasks (Q4–Q6), the "Perception-Reasoning Gap."
 
@@ -40,7 +41,7 @@ Zhou Letian, **Haochen Shi**, Wei Lou
 
 **SurveyLens: A Research Discipline-Aware Benchmark for Automatic Survey Generation**
 Beichen Guo, Zhiyuan Wen, Gu Jia, Senzhang Wang, Ruosong Yang, Shuaiqi Liu, **Haochen Shi**
-*ACM SIGKDD Conference on Knowledge Discovery and Data Mining (KDD) 2026 — Under Review*
+***ACM SIGKDD Conference on Knowledge Discovery and Data Mining (KDD) 2026 — Under Review***
 
 Existing ASG benchmarks are biased toward CS and use generic metrics. SurveyLens-1k covers 10 disciplines (Biology, Business, CS, Education, Engineering, Environmental Science, Medicine, Physics, Psychology, Sociology) with 100 human-written surveys each. Evaluation uses discipline-aware rubric scoring (LLM-as-judge with Bradley-Terry preference-aligned weights) and canonical alignment metrics (RAMS + TAMS for content coverage and redundancy). Tested 11 methods; notable finding: Deep Research agents produce richer narratives but lose structural precision, while vanilla LLMs outperform specialised ASG systems in humanities fields.
 
@@ -52,7 +53,7 @@ Existing ASG benchmarks are biased toward CS and use generic metrics. SurveyLens
 > **Role:** Sole developer &nbsp;|&nbsp; **Scheme:** URIS, PolyU
 
 > [!NOTE]
-> **URIS Selection:** 100 awardees selected university-wide across all faculties. Only **5–6 CS students** were matched with a CS-track supervisor in this cohort. Research output includes two LoRA adapters published on Hugging Face.
+> **URIS Selection:** 100 awardees selected university-wide across all faculties. Only **5–6 CS students** were matched with a CS-track supervisor in this cohort. Research output includes **two LoRA adapters published on Hugging Face**.
 
 The core question: does keeping the VLM out of the loop for most frames (YOLOv8 + tracker for object state, Qwen2.5-VL called only on demand) give better latency and more interpretable failures than querying end-to-end? Built this to find out.
 
@@ -80,7 +81,7 @@ The core question: does keeping the VLM out of the loop for most frames (YOLOv8 
 ## 🌟 Featured Project
 
 > [!IMPORTANT]
-> **PolyInterview** is a PolyU institutional project supervised by the university's Vice President. The university allocated dedicated faculty and resources to it.
+> **PolyInterview** is a PolyU institutional project supervised by the university's **Vice President**. The university allocated dedicated faculty and resources to it.
 
 ### **PolyInterview — AI-Powered Mock Interview Platform**
 > **Role:** Backend engineer &nbsp;|&nbsp; **Affiliation:** PolyU Key Project &nbsp;|&nbsp; [Repository ↗](https://github.com/ACCFOOL/PolyInterview)
