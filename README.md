@@ -8,7 +8,7 @@
 
 <br/>
 
-![Typing SVG](https://readme-typing-svg.herokuapp.com?font=Fira+Code&pause=1000&color=2E9EF7&center=true&vCenter=true&width=550&lines=Full-Stack+Developer;Multimodal+AI+%26+VLM+Researcher;Open+to+NUS+%2F+NTU+Summer+Research)
+![Typing SVG](https://readme-typing-svg.herokuapp.com?font=Fira+Code&pause=1000&color=2E9EF7&center=true&vCenter=true&width=550&lines=Full-Stack+Developer;Multimodal+AI+%26+VLM+Researcher;Open+to+Summer+Research+Opportunities)
 
 </div>
 
@@ -20,9 +20,11 @@ CS undergrad at PolyU, GPA 3.85/4.3. Currently running URIS-funded research on w
 
 Comfortable with system design, architecture visualization, and translating research ideas into working prototypes end-to-end.
 
-Looking for **summer research at NUS / NTU** (2026). Happy to contribute to ongoing projects in multimodal AI, NLP, or HCI.
+Looking for **summer research opportunities** (2026). Happy to contribute to ongoing projects in multimodal AI, NLP, or HCI.
 
-> 🔬 **Research Affiliation:** URIS — Undergraduate Research and Innovation Scheme, PolyU
+> [!IMPORTANT]
+> **Research Affiliation:** URIS — Undergraduate Research and Innovation Scheme, PolyU
+> University-wide competitive scheme: **~100 students selected per cohort** across all departments. Within the CS department, only **5–6 students** were matched with a CS-track professor. [View Official Awardee List ↗](https://www.polyu.edu.hk/ric/uris/uris-2024-25/awardees/)
 
 ---
 
@@ -51,6 +53,9 @@ Existing ASG benchmarks are biased toward CS and use generic metrics. SurveyLens
 ### Multimodal LLM-Based Home Environment Interaction System
 > **Role:** Sole developer &nbsp;|&nbsp; **Scheme:** URIS, PolyU
 
+> [!NOTE]
+> **URIS Selection:** University-wide ~100 awardees across all faculties; only **5–6 CS students** matched with a CS-track supervisor in this cohort. Research output includes two LoRA adapters published on Hugging Face.
+
 The core question: does keeping the VLM out of the loop for most frames — using YOLOv8 + tracker for object state, calling Qwen2.5-VL only on demand — give better latency and more interpretable failures than end-to-end querying? Built this to find out.
 
 **Architecture**
@@ -74,27 +79,19 @@ The core question: does keeping the VLM out of the loop for most frames — usin
 
 ---
 
-## Projects
+## 🌟 Featured Project
 
-### 🤝 PolyInterview — AI Mock Interview Platform
-> **Role:** Backend engineer &nbsp;|&nbsp; Team project &nbsp;|&nbsp; [learn more ↗](https://github.com/ACCFOOL/PolyInterview)
+> [!IMPORTANT]
+> **PolyInterview** is a **university-level key project** at PolyU, initiated and supervised by senior university leadership including the **Vice President** of the university. This is not an independent side project — it represents institutional recognition and direct faculty/executive endorsement of the work.
+
+### **PolyInterview — AI-Powered Mock Interview Platform**
+> **Role:** Backend engineer &nbsp;|&nbsp; **Affiliation:** PolyU Key Project &nbsp;|&nbsp; [Repository ↗](https://github.com/ACCFOOL/PolyInterview)
 
 AI-generated interview questions tailored to the role, a live digital avatar that speaks via WebRTC, and automated scoring using SKTE and FABE frameworks. My work was the backend — schema design, auth, TTS pipeline, and speech evaluation module.
 
 **System Architecture**
 
-```
-User Browser
-    │
-    ├── WebRTC stream ◄──── LiveTalking + Wav2Lip (lip-sync rendering)
-    │                              ▲
-    │                       TTS Engine (EdgeTTS / GPT-SoVITS)
-    │                              ▲
-    └── REST API ──► Flask Backend ──► OpenAI GPT-4o  (question gen / text eval)
-                          │        └► DashScope Qwen  (multimodal behaviour analysis)
-                          │
-                        SQLite (users · sessions · evaluation records · resume metadata)
-```
+![PolyInterview Architecture](https://raw.githubusercontent.com/HaochenSHI66/HaochenSHI66/main/polyinterview-architecture.png)
 
 **Core Technical Challenges**
 
@@ -106,13 +103,11 @@ User Browser
 
 **Contributions:** Relational schema design (SQLite) · Full auth and session management · TTS tone-selection pipeline · Speech evaluation module aligned with SKTE framework
 
-**System Architecture**
-
-![PolyInterview Architecture](https://raw.githubusercontent.com/HaochenSHI66/HaochenSHI66/main/polyinterview-architecture.png)
-
 `Python` `Flask` `Vue.js` `SQLite` `OpenAI API` `DashScope` `LiveTalking` `Wav2Lip` `WebRTC` `EdgeTTS` `GPT-SoVITS`
 
 ---
+
+## Projects
 
 ### 🎓 Teaching-Learning — AI Slide Lecture Assistant
 > **Role:** Sole developer &nbsp;|&nbsp; Live at [learn.shc66.com](https://learn.shc66.com)
@@ -215,16 +210,13 @@ Full-stack Gomoku with a Minimax and Alpha-Beta pruning engine, paired with real
 
 ---
 
-
----
-
 ## Contact
 
 <div align="center">
 
 📧 [haochen8.shi@connect.polyu.hk](mailto:haochen8.shi@connect.polyu.hk) &nbsp;·&nbsp; 🌐 [shc66.com](https://shc66.com) &nbsp;·&nbsp; 💻 [github.com/HaochenSHI66](https://github.com/HaochenSHI66)
 
-*Open to summer research at NUS / NTU — drop me an email.*
+*Open to summer research opportunities — drop me an email.*
 
 </div>
 
