@@ -16,7 +16,7 @@
 
 ## About Me
 
-CS undergrad at PolyU, GPA 3.85/4.3. Currently running URIS-funded research on whether a layered VLM architecture — detector + tracker + on-demand reasoning — actually beats end-to-end querying for grounded, multi-turn home environment dialogue. Shorter answer: it depends on how you define "beats."
+CS undergrad at PolyU, GPA 3.85. Currently running URIS-funded research on whether a layered VLM architecture — detector + tracker + on-demand reasoning — actually beats end-to-end querying for grounded, multi-turn home environment dialogue. Shorter answer: it depends on how you define "beats."
 
 I tend to build things all the way through, not just the model part. Looking for summer research in 2026, multimodal AI or NLP.
 
